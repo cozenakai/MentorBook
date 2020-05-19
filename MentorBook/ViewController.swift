@@ -34,9 +34,17 @@ class ViewController: UIViewController {
     }
     
     func setUI() {
+        
+
         imageView.image = mentorArray[index].getImage()
         nameLabel.text = mentorArray[index].name
         courseLabel.text = mentorArray[index].course
+        
+      
+               
+
+    
+  
     }
 
     @IBAction func mae(){
@@ -47,5 +55,6 @@ class ViewController: UIViewController {
         index = index + 1
         setUI()
     }
+    
 }
 
